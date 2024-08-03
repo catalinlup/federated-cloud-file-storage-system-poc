@@ -1,0 +1,31 @@
+version: '3.5'
+
+services:
+  central-service:
+    environment:
+        - GOOGLE_APPLICATION_CREDENTIALS=keys/key.json
+    build:
+      context: ./central_service
+      args:
+        env_file: local.env
+    command: flask run --host 0.0.0.0 --port 8081
+    ports:
+      - "8081:8081"
+    # links:
+    #   - rabbit-mq
+
+    # depends_on:
+    #   - rabbit-mq
+
+
+  # rabbit-mq:
+  #   image: rabbitmq:3.11-management
+  #   environment:
+  #     - RABBITMQ_DEFAULT_USER=user
+  #     - RABBITMQ_DEFAULT_PASS=password
+  #   ports:
+  #     - "5672:5672"
+  #     - "15672:15672"
+      
+
+    

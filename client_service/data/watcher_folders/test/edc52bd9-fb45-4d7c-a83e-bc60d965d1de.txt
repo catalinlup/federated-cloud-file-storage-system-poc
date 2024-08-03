@@ -1,0 +1,4 @@
+Hi!
+This is a demo file.
+We will see how the fatcher reacts to file sync events to update the local version of this file.
+Thanks for paying attention to this demo

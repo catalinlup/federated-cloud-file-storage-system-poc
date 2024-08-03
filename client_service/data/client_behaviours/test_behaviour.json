@@ -1,0 +1,30 @@
+{
+    
+    "create_file": {
+        "p": 0.0,
+        "possible_content": [
+            "data/files/file1.txt",
+            "data/files/file2.txt",
+            "data/files/file3.txt"
+        ]
+    },
+    "share_file": {
+        "p": 1.0,
+        "possible_users": ["user1", "user2", "user3"]
+    },
+    "update_file": {
+        "p": 0.0,
+        "possible_updates": [
+            "data/updates/update1.json",
+            "data/updates/update2.json",
+            "data/updates/update3.json"
+        ]
+    },
+    "get_file": {
+        "p": 0.0
+    },
+    "get_file_info": {
+        "p": 0.0
+    },
+    "action_frequency_s": 4
+}

@@ -1,0 +1,10 @@
+00:00 to 00:15 Cut
+00:15 to 00:23 Caption: Upload Image
+00:23 to 00:53 Cut
+00:53 to 01:05 Caption: Download Image
+01:05 to 01:33 Cut
+01:33 to 01:45 Caption: Share Image
+01:45 to 02:30 Cut
+02:30 to 02:50 Caption: Share Text File
+02:50 to 03:28 Cut
+03:28 to 03:40 Caption: Update Text File

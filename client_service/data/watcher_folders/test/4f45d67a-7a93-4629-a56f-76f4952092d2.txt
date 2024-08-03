@@ -1,0 +1,11 @@
+Hello, everyone!
+This is an incredible presentation!
+We will see how the fatcher reacts to file sync events to update the local version of this file.
+Thanks for paying attention to this demo
+
+
+
+
+
+
+Thanks for watching!
